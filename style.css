@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2196F3;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2196F3;
+	
+footer {
+    position: fixed; /* Fiksira footer na ekranu */
+    bottom: 10px;    /* Od razmaka od donjeg ruba */
+    right: 10px;     /* Od razmaka od desnog ruba */
+    font-size: 14px; /* Veličina fonta */
+    color: #333;     /* Boja teksta */
+    background-color: rgba(255, 255, 255, 0.8); /* Poluprovidna pozadina */
+    padding: 5px;    /* Unutrašnji razmak */
+    border-radius: 5px; /* Zaobljeni uglovi */
+}
+
+.image-container {
+    display: flex; /* Koristi Flexbox za centriranje */
+    justify-content: center; /* Horizontalno centriranje */
+    align-items: center; /* Vertikalno centriranje */
+    height: 400px; /* Visina kontejnera (možete prilagoditi) */
+}
+
+.image-container img {
+    max-width: 100%; /* Održava proporcije slike */
+    height: auto; /* Automatska visina */
+}
+
+.bazen-img {
+    max-width: 80%; 
+    height: auto;   
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}
+
+}
